@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    
+
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    border-bottom: 2px solid greenyellow;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+nav > a{
+    margin: 10px;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+
+}
+nav > a:hover{
+    color: aquamarine;
+    transition: 1.2s;
+    text-decoration: underline;
+    
+}
+.title{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    text-shadow: rgb(51, 255, 0) 5px 0 10px;
+}
+main{
+    display: grid;
+    margin: 0;
+    background-color: #000205;
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+}
+
+h2 {
+    color: white;
+}
+
+.linkBRO{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+
+.linkBRO:hover{
+    color: aquamarine;
+    transition: 1.2s;
+    text-decoration: underline;
+}
